@@ -163,11 +163,13 @@ html, body {
 }
 
 .Q {
-    border-radius: 50px;
-    width: 800px;
-    margin-bottom: 10px;
-    height: 80px;
-    background: rgba(189,195,199,0.2);
+    padding: 5px;
+    border-radius: 20px;
+    width: 60%;
+    max-width: 60%;
+    margin-bottom: 5%;
+    height: auto;
+    background: rgba(189,195,199,0.15);
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -179,16 +181,14 @@ html, body {
 }
 
 .mark {
-    position: absolute;
-    left: 50%;
-    top: 50%;
     -webkit-transform: translate(-50%, 50%);-moz-transform: translate(-50%, 50%);-ms-transform: translate(-50%, 50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, 50%);
+    margin-left: 46%;
+    margin-bottom: 20px;
 }
 
 .mark_value {
     text-align: center;
     width: 180px;
-    height: 20px;
     font-size: 14px;
     color: #000;
     outline: none;
@@ -209,7 +209,7 @@ html, body {
     height: 60px;
     position: absolute;
     left: 50%;
-    top: 101%;
+    top: 100.5%;
     -webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%);
     outline: none;
     border:none;
